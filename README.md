@@ -1,16 +1,52 @@
-# React + Vite
+# Power China Engineering Company
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive corporate website built with React and Tailwind CSS to showcase electrical engineering services, power generation, renewable energy, and infrastructure projects.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Power generation and electrical engineering services
+- Modern homepage with a hero section
+- Transmission and distribution solutions
+- Reusable React components
+- Company Services section
+- Company mission, vision, values
+-
+-
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- React Router
+- JavaScript (ES6+)
+- Tailwind CSS
+- Lucide React
+- Vite
+- Unsplash images
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+powerSectorWebsite/
+├── public/
+│   └── images/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── SectionTitle.jsx
+│   │   ├── ServiceCard.jsx
+│   │   └── ProjectCard.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
